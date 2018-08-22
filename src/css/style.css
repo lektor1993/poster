@@ -1,9 +1,39 @@
-container {
+.container-fluid {
   max-width: 1000px;
-  margin: 0;
-  width: 100%;
+  width: 100%; }
+
+.inputs {
+  padding: 10px; }
+
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-color: black; }
+
+.button {
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms; }
+
+.button:hover {
+  color: black;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  background-color: #42f4a1; }
 
 .text {
   border-radius: 5px;
@@ -11,11 +41,8 @@ container {
   padding: 10px; }
 
 .output {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  font-size: 70%;
   border-radius: 5px;
-  width: 100%;
-  height: auto;
   padding: 10px;
   margin: 30px;
   border-color: rgba(0, 0, 0, 0.25);
