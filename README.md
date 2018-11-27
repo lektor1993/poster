@@ -2,10 +2,10 @@
 
 parametrized JSON display website
 Technologies used:
-HTML5
-CSS3
-JS (ES5) + AJAX
-BOOTSTRAP
+HTML5,
+CSS3,
+JS (ES5) + AJAX,
+BOOTSTRAP,
 JQUERY
 
 
